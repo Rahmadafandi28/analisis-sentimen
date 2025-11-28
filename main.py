@@ -20,7 +20,9 @@ from tensorflow.keras.layers import Embedding, BatchNormalization, Bidirectional
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
 
 
-DATA_PATH = "/Users/gertrudisrms/Documents/Kuliah/DL/data/gojek 2025.csv"
+
+# DATA_PATH = "/Users/gertrudisrms/Documents/Kuliah/DL/data/gojek 2025.csv"
+DATA_PATH = "C:\\Users\\Afandi\\Downloads\\DL GACOR\\Project-DL\\data\\gojek 2025.csv"
 TEXT_COL = "content"
 SCORE_COL = "score"
 
